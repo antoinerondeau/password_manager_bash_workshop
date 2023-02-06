@@ -11,7 +11,7 @@ Create a bash script that will create a passwords file that will be used to stor
 "passwords.txt"
 ```
 
-!!! use the touch command
+!!!N use the touch command
 
 ## 2. Adding passwords to our file
 
@@ -38,8 +38,8 @@ You should have something like this in passwords.txt
 twitter:U2FsdGVkX1+1XMP7UFv6iNISTykXg0sEJbVgLa0n708=
 ```
 
-!!! use read for user inputs !
-!!! use openssl to encrypt your password !
+!!!N use read for user inputs !
+!!!N use openssl to encrypt your password !
 
 ## 3. List passwords
 
@@ -61,8 +61,8 @@ $ Passwords for the service : twitter
 $ Password for twitter is : twitter
 ```
 
-!!! Find the services you need in the file with "grep" !
-!!! Decrypt the password with openssl !
+!!!N Find the services you need in the file with "grep" !
+!!!N Decrypt the password with openssl !
 
 ## 4. Delete password
 
@@ -87,7 +87,7 @@ blabla:U2FsdGVkX1+1XMP7UFv6iNISTykXg0sEJbVgLa0n708=
 fufu:U2FsdGVkX1+1XMP56Fv6iNISTykXg0sEJbVgLa0n708=
 ```
 
-!!! Check out "sed"
+!!!N Check out "sed"
 
 ## 5. Better user interface
 
@@ -146,8 +146,8 @@ You will now have in your passwords.txt file :
 ```
 ignister:U2FsdGVkX18OTgWje6D5VhuYPxjwBnSAcrbObO42Krc=
 ```
-!!! Look how to generate a random password with openssl !
-!!! Don't forget to add this function to the user interface !
+!!!N Look how to generate a random password with openssl !
+!!!N Don't forget to add this function to the user interface !
 
 ## 7. Update password
 
