@@ -26,3 +26,10 @@ list_passwords() {
     echo "password for $username is : $password"
   done <<< "$lines"
 }
+
+# Step 4
+delete_password() {
+  read -p "Entrez le nom du service : " service
+  sed -i "/$service/d" "$file"
+  echo "Mot de passe supprimé avec succès."
+}
